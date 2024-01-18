@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "openai": "^4.24.7",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.11.4",
+    "prettier": "^3.2.2",
+    "prettier-plugin-organize-imports": "^3.2.4"
+  }
+}
