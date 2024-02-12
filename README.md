@@ -1,12 +1,12 @@
 # LLM Agent Demo
 
-**Agent = LLM + Tools + Tools**
+**Agent = LLM + State + Tools**
 
 See [this article](https://www.linkedin.com/pulse/llm-agents-overview-implementation-viktor-qvarfordt-ysdyf/) for an overview of LLM agents.
 
 ## Run code
 
-This demo agent is terminal based chat interface to agent that has some basic tools.
+This demo agent is a terminal-based chat interface to an agent that has some basic tools/actions.
 
 **Setup**
 
@@ -24,7 +24,7 @@ OPENAI_API_KEY='OMITTED' pnpm start
 **Example output**
 
 ```
-> Play music that fit's the mood of the weather
+> Play music that fits the mood of the weather
 
 << Agent requests function calls: [ getCurrentLocation({}) ]
 >> Submitting function outputs: [ "Stockholm, SE" ]
